@@ -90,6 +90,7 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 #header {
+	background: url(../img/bg/header-bg.jpg) no-repeat center top fixed;
 	background-size: cover;
 }
 
@@ -544,7 +545,7 @@ ul.numbersList span{
     line-height: 36px;
     margin-top: 25px;
 }
-
+.
 .contact-info i {
     width: 40px;
 	height: 40px;
@@ -584,14 +585,14 @@ input[type="submit"] {
 	border: 1px solid #fff;
 	width: 100%;
 	padding: 10px;
-	transition: 0.5s  linear;
+	transition: 0.5s background linear;
 	font-weight: bold;
 }
 
 input[type="submit"]:hover {
 	background: #fff;
 	border-color: #fff;
-	transition: 0.5s linear;
+	transition: 0.5s background linear;
 	color: #333;
 }
 
@@ -624,7 +625,7 @@ input[type="submit"]:hover {
 }
 
 .social-box li a {
-	transition: 0.5s linear;
+	transition: 0.5s background linear;
 	color: #fff;
 }
 
@@ -774,5 +775,4 @@ i.fa.fa-envelope-o {
     background-size: cover;
     }
 }
-
 
