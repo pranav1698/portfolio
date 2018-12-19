@@ -544,7 +544,7 @@ ul.numbersList span{
     line-height: 36px;
     margin-top: 25px;
 }
-.
+
 .contact-info i {
     width: 40px;
 	height: 40px;
@@ -584,14 +584,14 @@ input[type="submit"] {
 	border: 1px solid #fff;
 	width: 100%;
 	padding: 10px;
-	transition: 0.5s background linear;
+	transition: 0.5s  linear;
 	font-weight: bold;
 }
 
 input[type="submit"]:hover {
 	background: #fff;
 	border-color: #fff;
-	transition: 0.5s background linear;
+	transition: 0.5s linear;
 	color: #333;
 }
 
@@ -624,7 +624,7 @@ input[type="submit"]:hover {
 }
 
 .social-box li a {
-	transition: 0.5s background linear;
+	transition: 0.5s linear;
 	color: #fff;
 }
 
