@@ -5,15 +5,15 @@
 .main-about .btn-clear:hover,
 .main-caption .btn-clear:hover
  {
-background-color: #7649f2;
+background-color: #040404;
 }
 
 .border-color, .navbar-nav > li.current > a, .navbar-nav > li > a:hover, .link-attr a:hover, .main-about .btn-clear:hover, .main-caption .btn-clear:hover{
-border-color:#7649f2;
+border-color:#fff;
 }
 .bg-black, .navbar-inverse{
- background-color:#1d2127;
-}
+ background-color:#222;
+} 
 .color-primary, ul#filterOptions li.cur a, ul#filterOptions li a:hover, .link-attr a:hover{
-color: #7649f2;
+color: #040404;
 }

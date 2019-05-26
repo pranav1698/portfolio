@@ -170,7 +170,7 @@ height: inherit;
 padding: 3px 15px;
 font-size: 18px;
 line-height: 48px;
-color:#fff;
+color: #040404 ;
 }
 .navbar-inverse .navbar-brand {
 color:#fff;
@@ -224,7 +224,8 @@ margin: 0 auto;
  -webkit-transition:all 200ms linear;   
  -moz-transition:all 200ms linear;   
  -ms-transition:all 200ms linear;   
- -o-transition:all 200ms linear;   
+ -o-transition:all 200ms linear;
+ color:  #040404   
 }
 /* Intro */
 
@@ -236,6 +237,9 @@ margin: 0 auto;
 .page:last-of-type{
 border-bottom:none;
 padding:120px 0;
+}
+.page-bgcolor1{
+background:#fff;
 }
 .page-bgcolor{
 background:#f2f2f2;
@@ -589,7 +593,7 @@ padding:10px 0;
  text-decoration:none;
 }
 .cp-right P a:hover{
-color:#fff;
+color: #black
 }
 .top-scroll {
   margin: 0;
