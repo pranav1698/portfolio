@@ -1,3 +1,6 @@
+document.getElementById("about-blogs").onclick = function () {
+    window.open("https://medium.com/pranav-kulshrestha",'_blank');
+};
 (function(){
  "use strict";
 
