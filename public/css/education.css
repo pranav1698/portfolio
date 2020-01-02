@@ -1,0 +1,21 @@
+.item {
+    margin-bottom: 30px;
+  }
+.item:last-child {
+    margin-bottom: 0;
+  }
+.item .title {
+    font-size: 16px;
+    margin-top: 0;
+  }
+.item .university {
+    font-family: "Lato", arial, sans-serif;
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    padding-left: 25px;
+  }
+.item .university .year {
+    color: #b0b7bf;
+    font-weight: 500;
+  }

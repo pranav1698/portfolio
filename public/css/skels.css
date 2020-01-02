@@ -1,0 +1,133 @@
+:root {
+    --gradient: linear-gradient(-90deg, #f0f0f0 0%, #f8f8f8 50%, #f0f0f0 100%);
+  }
+  
+  .skeleton-pulse {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: var(--gradient);
+    background-size: 400% 400%;
+    animation: pulse 1.2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: -135% 0%;
+    }
+  }
+  
+  .skeleton-line {
+    width: 5.5em;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .skeleton-line::before {
+    content: "\00a0";
+  }
+  
+  .skeleton-circle:empty {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    content: "";
+  }
+  
+  .skeleton-circle:not(:empty) {
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .skeleton-box:empty {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    content: "";
+  }
+  
+  .skeleton-box:not(:empty) {
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+  }
+
+.back-to-top-btn {
+  width: max-content;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+.back-to-top-btn:hover {
+  color: var(--accent) !important;
+  text-decoration: none;
+}
+
+.divider {
+  width: 1px;
+  vertical-align: middle;
+  position: relative;
+  top: -0.06em;
+  height: 1px;
+  width: 100%;
+  min-width: 100%;
+  clear: both;
+  display: table;
+  white-space: nowrap;
+  text-align: center;
+  background: transparent;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  margin: 16px 0;
+}
+
+.divider::before {
+  content: "";
+  display: table-cell;
+  position: relative;
+  top: 50%;
+  width: 50%;
+  border-top: 1px solid #e8e8e8;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.divider::after {
+  content: "";
+  display: table-cell;
+  position: relative;
+  top: 50%;
+  width: 50%;
+  border-top: 1px solid #e8e8e8;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.avatar-holder {
+  /* margin: 0px 10px; */
+  max-width: fit-content;
+  cursor: pointer;
+  min-height: 200px;
+}
+
+.avatar {
+  opacity: 1;
+  height: 200px;
+  width: 200px;
+  clip-path: circle();
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+}
