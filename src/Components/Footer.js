@@ -40,7 +40,7 @@ class Footer extends Component {
                       </div>
                   </div>        
                   
-              <a className="btn btn-link back-to-top-btn" title="Back to top" href="/#navbar">▲</a>
+              <a className="btn btn-link back-to-top-btn" title="Back to top" href="https://pranav1698.github.io/portfolio/#navbar">▲</a>
             </div>
           </footer>
         );

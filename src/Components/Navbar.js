@@ -17,19 +17,19 @@ class Navbar extends Component {
                         <div className="nav-links">
                             <ul className="list-inline">
                                 <li className="list-inline-item mt-3">
-                                    <a href="/">Home</a>
+                                    <a href="https://pranav1698.github.io/portfolio/">Home</a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="/#about">About</a>
+                                    <a href="https://pranav1698.github.io/portfolio/#about">About</a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="/#project">Projects</a>
+                                    <a href="https://pranav1698.github.io/portfolio/#project">Projects</a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="/#skills">Skills</a>
+                                    <a href="https://pranav1698.github.io/portfolio/#skills">Skills</a>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="/#contact">Contact</a>
+                                    <a href="https://pranav1698.github.io/portfolio/#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>                    
