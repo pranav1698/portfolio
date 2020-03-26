@@ -12,8 +12,8 @@ class Navbar extends Component {
             <header>
                 <nav id="navbar" ref="navbar" className="navbar navbar-light shadow-sm">
                     <div className="container navbar-container">
-                        <a className="navbar-brand bg-white" href="/#">
-                            Pranav
+                        <a className="navbar-brand bg-white">
+                            <NavLink to="/portfolio/">Pranav</NavLink>
                         </a>
                         <div className="nav-links">
                             <ul className="list-inline">
