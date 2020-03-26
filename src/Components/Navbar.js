@@ -18,7 +18,7 @@ class Navbar extends Component {
                         <div className="nav-links">
                             <ul className="list-inline">
                                 <li className="list-inline-item mt-3">
-                                    <NavLink to="/" exact={true}>Home</NavLink>
+                                    <NavLink to="/portfolio/" exact={true}>Home</NavLink>
                                 </li>
                                 <li className="list-inline-item">
                                     <NavLink to="/about">About</NavLink>
