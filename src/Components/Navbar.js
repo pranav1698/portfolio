@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class Navbar extends Component {
     constructor(props) {
@@ -17,19 +18,19 @@ class Navbar extends Component {
                         <div className="nav-links">
                             <ul className="list-inline">
                                 <li className="list-inline-item mt-3">
-                                    <a href="https://pranav1698.github.io/portfolio/">Home</a>
+                                    <NavLink to="/" exact={true}>Home</NavLink>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="https://pranav1698.github.io/portfolio/#about">About</a>
+                                    <NavLink to="/about">About</NavLink>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="https://pranav1698.github.io/portfolio/#project">Projects</a>
+                                    <NavLink to="/projects">Projects</NavLink>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="https://pranav1698.github.io/portfolio/#skills">Skills</a>
+                                    <NavLink to="/skills">Skills</NavLink>
                                 </li>
                                 <li className="list-inline-item">
-                                    <a href="https://pranav1698.github.io/portfolio/#contact">Contact</a>
+                                    <NavLink to="/education">Education</NavLink>
                                 </li>
                             </ul>
                         </div>                    

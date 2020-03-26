@@ -8,7 +8,7 @@ class About extends Component {
 
     render(){
         return(
-            <section id="about" className="py-lg-3">
+            <section className="py-lg-3">
                 <div className="row">
                     <div className="col-sm-6">
                         <div className="card about-card">
