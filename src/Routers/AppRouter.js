@@ -14,7 +14,7 @@ const AppRouter = () => (
             <Navbar />
             <main id="home" className="container">
                 <Switch>
-                    <Route path="/" exact={true} component={Landing}/>
+                    <Route path="/portfolio/" exact={true} component={Landing}/>
                     <Route path="/about" component={About} />
                     <Route path="/projects" component={Project} />
                     <Route path="/skills" component={Skills} />
