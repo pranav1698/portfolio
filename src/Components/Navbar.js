@@ -21,9 +21,6 @@ class Navbar extends Component {
                                     <NavLink to="/portfolio/" exact={true}>Home</NavLink>
                                 </li>
                                 <li className="list-inline-item">
-                                    <NavLink to="/about">About</NavLink>
-                                </li>
-                                <li className="list-inline-item">
                                     <NavLink to="/projects">Projects</NavLink>
                                 </li>
                                 <li className="list-inline-item">
@@ -31,6 +28,11 @@ class Navbar extends Component {
                                 </li>
                                 <li className="list-inline-item">
                                     <NavLink to="/education">Education</NavLink>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a target="blank" href="https://drive.google.com/file/d/1popF-DfpWBRpQJO-NPDA-Am7Q4HU0pYS/view?usp=sharing" >
+                                        Resume
+                                    </a>
                                 </li>
                             </ul>
                         </div>                    

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import About from './About';
 import linkedin from '../Assets/logos/linkedin.svg';
 import github from '../Assets/logos/github.svg';
 import twitter from '../Assets/logos/twitter.svg';
@@ -15,6 +16,7 @@ class Landing extends Component {
 
     render(){
         return(
+              <div>
                 <section id="introduction" className="py-lg-3">
                     <div className="card introduction-card mt-5">
                         <div className="card-body row introduction-card-body">
@@ -80,6 +82,8 @@ class Landing extends Component {
                         </div>
                     </div>
                 </section>
+                <About />
+              </div>
         );
     }
 }
